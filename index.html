@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uday Narayan Singh | Software Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .hero-bg { 
+      background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%); 
+    }
+    .section-title { 
+      position: relative; 
+      display: inline-block;
+    }
+    .section-title:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background: #3b82f6;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .profile-img {
+      border-radius: 9999px;
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.3);
+      border: 6px solid white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold text-slate-800">Uday Narayan Singh</h1>
+      <div class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+        <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+        <a href="#education" class="hover:text-blue-600 transition">Education</a>
+        <a href="#certifications" class="hover:text-blue-600 transition">Certifications</a>
+      </div>
+      <a href="Resume.udaysingh.docx" download class="bg-blue-700 text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-blue-800 transition flex items-center gap-2">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg text-white py-32">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4">Uday Narayan Singh</h2>
+      <p class="text-2xl md:text-3xl mb-6 text-blue-200">Aspiring Software Developer</p>
+      <p class="max-w-2xl mx-auto text-lg text-blue-100 mb-10">
+        Passionate about building robust applications and solving complex problems through clean and efficient code.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#projects" class="bg-white text-blue-700 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-100 transition text-lg">
+          View Projects
+        </a>
+        <a href="mailto:udaynarayansingh784@gmail.com" class="border-2 border-white text-white px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:text-blue-700 transition text-lg">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="section-title text-4xl font-bold mb-8 text-slate-800">About Me</h2>
+          <p class="text-lg leading-relaxed text-gray-600">
+            Highly motivated and detail-oriented aspiring software developer with a strong foundation in programming languages including Java, C++, HTML, CSS, JavaScript, MySQL, and MongoDB. 
+          </p>
+          <p class="text-lg leading-relaxed text-gray-600 mt-6">
+            Currently pursuing B.Tech in Computer Science & Engineering. Eager to apply my skills in a professional environment and contribute to meaningful projects.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <img src="\uday.png" alt="Uday Narayan Singh" class="profile-img w-80 h-80 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="section-title text-4xl font-bold text-center mb-12 text-slate-800">Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">C++</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">Java</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">HTML & CSS</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">JavaScript</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">MySQL</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">MongoDB</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">Node.js & Express</div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm text-center font-medium">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="section-title text-4xl font-bold text-center mb-12 text-slate-800">Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="border border-gray-200 rounded-3xl overflow-hidden hover:shadow-2xl transition-all">
+          <div class="h-64 bg-gradient-to-br from-slate-100 to-blue-100 flex items-center justify-center">
+            <span class="text-7xl">📊</span>
+          </div>
+          <div class="p-8">
+            <h3 class="font-semibold text-2xl mb-3">Student Management System</h3>
+            <p class="text-gray-600 mb-6">Desktop application for managing student records with full CRUD operations and database integration.</p>
+            <div class="flex gap-2">
+              <span class="px-4 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Java</span>
+              <span class="px-4 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-gray-200 rounded-3xl overflow-hidden hover:shadow-2xl transition-all">
+          <div class="h-64 bg-gradient-to-br from-slate-100 to-blue-100 flex items-center justify-center">
+            <span class="text-7xl">🌐</span>
+          </div>
+          <div class="p-8">
+            <h3 class="font-semibold text-2xl mb-3">Personal Portfolio Website</h3>
+            <p class="text-gray-600 mb-6">Modern, responsive portfolio website built to showcase skills and projects.</p>
+            <div class="flex gap-2">
+              <span class="px-4 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">HTML</span>
+              <span class="px-4 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">CSS</span>
+              <span class="px-4 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+      <div>
+        <h2 class="text-3xl font-bold mb-8 text-slate-800">Education</h2>
+        <div class="space-y-8">
+          <div>
+            <h3 class="font-semibold text-xl">B.Tech – Computer Science & Engineering</h3>
+            <p class="text-blue-600">CGC University, Mohali, Punjab</p>
+            <p class="text-sm text-gray-500">2024 – Present</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-8 text-slate-800">Certifications</h2>
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-2xl shadow-sm">
+            <p class="font-medium">Remote Sensing & GIS Enthusiast</p>
+            <p class="text-sm text-gray-500">IIRS, ISRO • December 2024</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm">
+            <p class="font-medium">English Communication Skills</p>
+            <p class="text-sm text-gray-500">Infosys Springboard • April 2025</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm">
+            <p class="font-medium">Business Email</p>
+            <p class="text-sm text-gray-500">HP LIFE • July 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-20 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+      <p class="text-xl text-slate-300 mb-10">Open to internships, freelance opportunities, and collaborations.</p>
+      
+      <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+        <a href="mailto:udaynarayansingh784@gmail.com" class="bg-blue-600 hover:bg-blue-700 px-10 py-4 rounded-2xl text-lg font-medium transition flex items-center gap-3">
+          <i class="fas fa-envelope"></i> Send Email
+        </a>
+        <a href="https://linkedin.com/in/udayrajput0009" target="_blank" class="border border-slate-600 hover:border-white px-8 py-4 rounded-2xl flex items-center gap-3 transition">
+          <i class="fab fa-linkedin text-xl"></i> LinkedIn
+        </a>
+      </div>
+
+      <p class="mt-12 text-slate-400">
+        📍 Mohali, Punjab • +91 92636 98823
+      </p>
+    </div>
+  </section>
+
+  <footer class="bg-black py-8 text-center text-gray-500 text-sm">
+    © 2026 Uday Narayan Singh. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
